@@ -1,0 +1,31 @@
+type: edu
+files:
+  - name: creditcalc/creditcalc.py
+    visible: true
+    learner_created: false
+  - name: test/__init__.py
+    visible: false
+    learner_created: false
+  - name: test/tests.py
+    visible: false
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8005#comment
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #3
+
+    Looks like your annuity payments calculations aren't working properly. Correct annuity payment and overpayment are [ 37104, 129638 ], but you output: ['129638.0', '92534.0']
+
+    Please find below the output of your program during this failed test.
+
+    ---
+
+    Arguments: --type=annuity --principal=1000000 --periods=8 --interest=9.8
+
+    Your monthly payment = 129638.0 and the last payment = 92534.0.
+  time: "Tue, 08 Oct 2024 07:38:51 UTC"
+record: 4

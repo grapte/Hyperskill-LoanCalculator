@@ -1,0 +1,20 @@
+type: edu
+files:
+  - name: creditcalc/creditcalc.py
+    visible: true
+    learner_created: false
+  - name: test/__init__.py
+    visible: false
+    learner_created: false
+  - name: test/tests.py
+    visible: false
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8004#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 08 Oct 2024 07:41:56 UTC"
+record: 3
